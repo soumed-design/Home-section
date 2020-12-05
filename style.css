@@ -1,0 +1,239 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html{
+  height: 100%;
+  overflow-x: hidden ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 20px 0;
+  top: 0;
+  z-index: 100;
+  transition: .3s linear;
+  line-height: 50px;
+}   
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Raleway',sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.logo span{
+  color: #3639a4;
+}
+.navbar-menu a{
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Raleway',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin-left: 35px;
+  display: inline-block;
+}
+.navbar-menu a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.8px;
+  background-color: #3639a4;
+  transition: width .3s;
+}
+.navbar-menu a:hover::after{
+  width: 100%;
+}
+.sticky{
+  background-color: #fff;
+  padding: 10px 0;
+}
+.sticky .logo{
+  color: #000;
+
+}
+.sticky .navbar-menu a{
+  color: #000;
+}
+#home{
+  height: 100vh;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home .inner-width{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+#home .content{
+  color: #fff;
+  padding-left: 30px;
+  line-height: 55px;
+  text-align: left;
+}
+#home .content h1{
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  font-family: 'Raleway',sans-serif;
+}
+#home .content p{
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: 'Raleway',sans-serif;
+}
+#home .content button{
+  padding: 12px 25px;
+  margin-top: 15px;
+  background: #3639a4;
+  border-radius: 3px;
+  border: 1px solid #3639a4;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: 'Raleway',sans-serif;
+  outline: none;
+  cursor: pointer;
+  transition: all .4s;
+}
+#home .content button:hover{
+  background-color: #fff;
+  color: #3639a4;
+  border-color: #fff;
+  font-weight: 900;
+}
+
+.social-container{
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}
+.social-icons{
+  list-style: none;
+}
+.social-icons li{
+  margin: 26px 0;
+}
+.social-icons li i{
+  color: #fff;
+  font-size: 20px;
+}
+.social-icons li a:hover i{
+  transform: scale(1.5);
+  color: #3639a4;
+  transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
